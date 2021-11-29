@@ -2,7 +2,7 @@
 
 1. clone this repo
 
-```bash
+```sh
 git clone https://github.com/darshandamre/emotion-based-music-ai.git
 ```
 
@@ -10,18 +10,18 @@ git clone https://github.com/darshandamre/emotion-based-music-ai.git
 
 3. create a virtual env
 
-```bash
+```sh
 python -m venv venv
 ```
 
 4. install all dependencies
 
-```bash
+```sh
 pip install -r requirements.txt
 ```
 
 5. run this app
 
-```bash
+```sh
 flask run
 ```
