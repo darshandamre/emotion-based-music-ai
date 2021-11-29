@@ -14,13 +14,20 @@ git clone https://github.com/darshandamre/emotion-based-music-ai.git
 python -m venv venv
 ```
 
-4. install all dependencies
+4. activate virtual env (if not already activated)
+   for windows powershell
+
+```sh
+./venv/Scripts/Activate.ps1
+```
+
+5. install all dependencies
 
 ```sh
 pip install -r requirements.txt
 ```
 
-5. run this app
+6. run this app
 
 ```sh
 flask run
